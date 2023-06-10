@@ -1,0 +1,39 @@
+body {
+    background-color: #0e111e;
+}
+
+.main-content {
+    /* background: orange; */
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.main-content img {
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.main-content h1 {
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.main-content a {
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    background-color: #252635;
+    margin: 12px 0;
+    padding: 20px;
+    transition: 1s;
+}
+
+.main-content a:hover {
+    background-color: white;
+    color: black;
+}
